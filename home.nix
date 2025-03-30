@@ -164,7 +164,7 @@
 
     neovim =
       let
-        pluginConfigurationsPath = ../nvim;
+        pluginConfigurationsPath = ./nvim;
         loadFromName = file: builtins.readFile "${pluginConfigurationsPath}/${file}";
       in
       {
